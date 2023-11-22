@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+
+:root {
+  --dark-color-00: #000000;
+  --dark-color-22: #222222;
+  --dark-color-33: #333333;
+  --dark-color-66: #666666;
+  --dark-color-f2: #f2f2f2;
+  --dark-color-f8: #f8f8f8;
+  --white-color-e9: #e9efff;
+  --white-color-ee: #eeeeee;
+  --white-color-dd: #dddddd;
+  --white-color-ff: #ffffff;
+  --blue-color-04: #00489a;
+  --blue-color-07: #0077ff;
+  --blue-color-79: #79b2f2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.app {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.swiper {
+  overflow: visible !important;
+  position: static !important;
+}
+
+.swiper-wrapper {
+  position: static !important;
+}

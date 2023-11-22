@@ -1,0 +1,26 @@
+.btn {
+  padding: 13px 31px;
+  border-radius: 50px;
+  background: var(--blue-color-07);
+  color: var(--white-color-ff);
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.5s;
+  border: 1px solid var(--blue-color-07);
+  cursor: pointer;
+  box-shadow: 0 0 40px 40px var(--blue-color-07) inset,
+    0 0 0 0 var(--blue-color-07);
+}
+
+.btn:hover {
+  background: var(--white-color-ff);
+  color: var(--blue-color-07);
+  box-shadow: 0 0 10px 0 var(--blue-color-07) inset,
+    0 0 10px 4px var(--blue-color-07);
+}
+
+.btn:active {
+  background: var(--blue-color-07);
+  color: var(--white-color-ff);
+}

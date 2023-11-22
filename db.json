@@ -1,0 +1,299 @@
+{
+  "store": {
+    "home": {
+      "heroSection": {
+        "name": "Welcome to my Portfolio",
+        "title": ["Hi I’m", "Robert Junior", "Product Designer"],
+        "description": "Collaborating with highly skilled individuals, our agency delivers top-quality services.",
+        "btnName": ["Hire Me!", "Download CV"],
+        "btnImg": "/downloadIconBlue.svg",
+        "myImg": {
+          "src": "/myImg.png",
+          "alt": "myImg"
+        }
+      },
+      "softwareSection": [
+        {
+          "src": "/jqueryIcon.png",
+          "alt": "jqueryIcon"
+        },
+        {
+          "src": "/wordPressIcon.png",
+          "alt": "wordPressIcon"
+        },
+        {
+          "src": "/lessIcon.png",
+          "alt": "lessIcon"
+        },
+        {
+          "src": "/sassIcon.png",
+          "alt": "sassIcon"
+        },
+        {
+          "src": "/spotifyIcon.png",
+          "alt": "spotifyIcon"
+        }
+      ]
+    },
+    "aboutMe": {
+      "myImg": {
+        "src": "myImg2.png",
+        "alt": "myImg2"
+      },
+      "name": "About Me",
+      "title": ["20 Year’s Experience", "on Product Design"],
+      "description": [
+        "Hello there! I'm",
+        " Robert Junior. ",
+        "I specialize in web design and development, and I'm deeply passionate and committed to my craft. With",
+        " 20 years ",
+        "of experience as a professional graphic designer"
+      ],
+      "btn": ["Main Skills", "Awards", "Education"],
+      "skills": [
+        [
+          {
+            "title": "User Experience Design - UI/UX",
+            "progress": "95"
+          },
+          {
+            "title": "Web & User Interface Design - Development",
+            "progress": "87"
+          },
+          {
+            "title": "Interaction Design - Animation",
+            "progress": "80"
+          }
+        ],
+        [
+          {
+            "title": "Interaction Design - Animation",
+            "progress": "75"
+          },
+          {
+            "title": "User Experience Design - UI/UX",
+            "progress": "90"
+          },
+          {
+            "title": "Web & User Interface Design - Development",
+            "progress": "82"
+          }
+        ],
+        [
+          {
+            "title": "Web & User Interface Design - Development",
+            "progress": "77"
+          },
+          {
+            "title": "Interaction Design - Animation",
+            "progress": "70"
+          },
+          {
+            "title": "User Experience Design - UI/UX",
+            "progress": "85"
+          }
+        ]
+      ]
+    },
+    "services": {
+      "name": "Services",
+      "title": ["Exploring My Design ", "Skills"],
+      "description": "We transform your ideas into a distinctive web project that both inspires you and captivates your customers",
+      "btnArrowLeft": {
+        "src": "/arrowLeftBlue.svg",
+        "alt": "arrowLeftBlue"
+      },
+      "btnArrowRight": {
+        "src": "/arrowRightBlue.svg",
+        "alt": "arrowRightBlue"
+      },
+      "info": {
+        "src": "/frontDevBlue.svg",
+        "alt": "frontDevBlue",
+        "data": [
+          {
+            "id": 1,
+            "title": "Website / App Design UX / UI Design",
+            "description": "Creating Engaging Digital Experiences for Websites and Apps through UX/UI Design"
+          },
+          {
+            "id": 2,
+            "title": "Strategic Marketing and Creative Content",
+            "description": "Elevating Brands and Engagement through Strategic Marketing and Creative Content"
+          },
+          {
+            "id": 3,
+            "title": "Multivendor eCommerce Website Solutions",
+            "description": "Unlocking the World of Multivendor eCommerce Websites"
+          },
+          {
+            "id": 4,
+            "title": "Crafting Brand Strategies and Artistic Direction",
+            "description": "Delving Deep into Crafting Comprehensive Brand Strategies and Offering Expert Guidance"
+          }
+        ],
+        "text": "Learn more",
+        "img": {
+          "src": "/arrowRightBlue.svg",
+          "alt": "arrowRightBlue"
+        }
+      }
+    },
+    "testimonials": {
+      "name": "Testimonials",
+      "title": "The Trust From Clients"
+    },
+    "contactMe": {
+      "name": "contact me",
+      "title": "Request Free Consultancy",
+      "info": {
+        "name": "Hotline 24/7",
+        "phone": "(+23) 5535 68 68",
+        "address": [
+          "Address: ",
+          "2972 Westheimer Rd. Santa Ana, Illinois 85486"
+        ],
+        "email": ["Email: ", "nevaeh.simmons@example.com"],
+        "fax": ["Fax: ", "(702) 555-0122"],
+        "workHour": ["Work Hour: ", "Mon - Sat: 9:00 - 18:00"]
+      },
+      "form": {
+        "name": "Name*",
+        "email": "Email Address*",
+        "title": "How can we help you?",
+        "checkbox": "By submitting, i’m agreed to the Terms & Conditons",
+        "submit": "Request Now"
+      }
+    },
+    "logIn": {
+      "title": "Welcome",
+      "text": "Please enter your information",
+      "input": {
+        "name": {
+          "src": "/inputImg1.svg",
+          "alt": "inputImg1",
+          "type": "text",
+          "placeholder": "Username"
+        },
+        "password": {
+          "src": "/inputImg2.svg",
+          "alt": "inputImg2",
+          "type": "password",
+          "placeholder": "Password"
+        }
+      },
+      "img": {
+        "src": "/logInImg.png",
+        "alt": "logInImg"
+      }
+    },
+    "logOut": {
+      "title": "Welcome",
+      "text": "We are glad to see you back with us",
+      "img": {
+        "src": "/logInImg.png",
+        "alt": "logInImg"
+      }
+    },
+    "admin": {
+      "name": "Admin",
+      "password": "777"
+    },
+    "pageNotFound": {
+      "src": "/404Page.png",
+      "alt": "404Page",
+      "title": "Something went wrong.",
+      "description": "Sorry, We can’t find the page you’re looking for."
+    }
+  },
+  "usersData": [
+    {
+      "id": 1,
+      "img": {
+        "src": "/userImg1.png",
+        "alt": "userImg1"
+      },
+      "star": 1,
+      "description": "Lorem ipsum dolor sit amet consectetur. Tortor odio purus morbi amet. Donec bibendum et cursus felis sollicitudin vulputate cursus odio. Aliquam cursus eu in aliquam nisl",
+      "name": "Jenny Wilson",
+      "position": "Medical Assistant"
+    },
+    {
+      "id": 2,
+      "img": {
+        "src": "/userImg2.png",
+        "alt": "userImg2"
+      },
+      "star": 2,
+      "description": "Lorem ipsum dolor sit amet consectetur. Tortor odio purus morbi amet. Donec bibendum et cursus felis sollicitudin vulputate cursus odio. Aliquam cursus eu in aliquam nisl",
+      "name": "Jenny Wilson",
+      "position": "Medical Assistant"
+    },
+    {
+      "id": 3,
+      "img": {
+        "src": "/userImg3.png",
+        "alt": "userImg3"
+      },
+      "star": 3,
+      "description": "Lorem ipsum dolor sit amet consectetur. Purus commodo id id ut ultrices aliquam. Sit aliquet leo et lorem dignissim semper donec risus tempor. Varius ultricies dolor ultricies",
+      "name": "Esther Howard",
+      "position": "Nursing Assistant"
+    },
+    {
+      "id": 4,
+      "img": {
+        "src": "/userImg4.png",
+        "alt": "userImg4"
+      },
+      "star": 4,
+      "description": "Lorem ipsum dolor sit amet consectetur. Eu velit tellus pellentesque tincidunt arcu convallis bibendum. Orci diam leo non molestie dictum orci pulvinar massa",
+      "name": "Cameron Williamson",
+      "position": "Marketing Coordinator"
+    },
+    {
+      "id": 5,
+      "img": {
+        "src": "/userImg1.png",
+        "alt": "userImg1"
+      },
+      "star": 5,
+      "description": "Lorem ipsum dolor sit amet consectetur. Nibh porttitor aliquet tellus eget egestas. Enim ultrices dictumst tortor in eget neque vestibulum potenti tempus",
+      "name": "Savannah Nguyen",
+      "position": "President of Sales"
+    },
+    {
+      "id": 6,
+      "img": {
+        "src": "/userImg2.png",
+        "alt": "userImg2"
+      },
+      "star": 4,
+      "description": "Lorem ipsum dolor sit amet consectetur. Tortor odio purus morbi amet. Donec bibendum et cursus felis sollicitudin vulputate cursus odio. Aliquam cursus eu in aliquam nisl",
+      "name": "Jenny Wilson",
+      "position": "Medical Assistant"
+    },
+    {
+      "id": 7,
+      "img": {
+        "src": "/userImg3.png",
+        "alt": "userImg3"
+      },
+      "star": 3,
+      "description": "Lorem ipsum dolor sit amet consectetur. Purus commodo id id ut ultrices aliquam. Sit aliquet leo et lorem dignissim semper donec risus tempor. Varius ultricies dolor ultricies",
+      "name": "Esther Howard",
+      "position": "Nursing Assistant"
+    },
+    {
+      "id": 8,
+      "img": {
+        "src": "/userImg4.png",
+        "alt": "userImg4"
+      },
+      "star": 2,
+      "description": "Lorem ipsum dolor sit amet consectetur. Eu velit tellus pellentesque tincidunt arcu convallis bibendum. Orci diam leo non molestie dictum orci pulvinar massa",
+      "name": "Cameron Williamson",
+      "position": "Marketing Coordinator"
+    }
+  ]
+}

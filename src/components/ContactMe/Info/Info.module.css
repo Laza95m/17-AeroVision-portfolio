@@ -1,0 +1,45 @@
+.container {
+  background: var(--white-color-ff);
+  border-radius: 15px;
+  max-height: 261px;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  gap: 40px;
+}
+
+.box {
+  color: var(--dark-color-33);
+}
+
+.name {
+  line-height: 20px;
+}
+
+.phone {
+  line-height: 30px;
+}
+
+.text {
+  line-height: 26px;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1033px) {
+  .container {
+    max-height: 317px;
+  }
+}
+
+@media screen and (max-width: 962px) {
+  .block {
+    padding: 20px;
+    gap: 30px;
+  }
+}

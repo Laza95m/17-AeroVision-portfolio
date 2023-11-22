@@ -1,0 +1,67 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.block {
+  max-width: 364px;
+  width: 100%;
+  max-height: 52px;
+  height: 100vh;
+  border-radius: 13px;
+  background: var(--dark-color-f2);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 14px 18px;
+  transition: 0.5s;
+}
+
+.block:hover {
+  background: #df6830;
+  color: var(--dark-color-33);
+  box-shadow: 0 0 10px 0 #df6830 inset, 0 0 10px 4px #df6830;
+}
+
+.input {
+  background: transparent;
+  border: none;
+  padding: 9px 0;
+  width: 100%;
+  font-size: 12px;
+}
+
+.input:focus {
+  background: #df6830;
+  box-shadow: 0 0 10px 0 #df6830 inset, 0 0 10px 4px #df6830;
+}
+
+.input::placeholder {
+  color: var(--dark-color-33);
+}
+
+.btn {
+  border-radius: 13px;
+  background: var(--dark-color-22);
+  border: none;
+  color: var(--white-color-ff);
+  font-size: 12px;
+  font-weight: 700;
+  padding: 17px;
+  cursor: pointer;
+  box-shadow: 0 0 40px 40px var(--dark-color-22) inset,
+    0 0 0 0 var(--dark-color-22);
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background: #df6830;
+  color: var(--dark-color-33);
+  box-shadow: 0 0 10px 0 #df6830 inset, 0 0 10px 4px #df6830;
+}
+
+.btn:active {
+  background: var(--blue-color-07);
+  color: var(--white-color-ff);
+}

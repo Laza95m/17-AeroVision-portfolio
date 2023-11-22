@@ -1,0 +1,24 @@
+.block {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  margin-bottom: 45px;
+  flex-wrap: wrap;
+}
+
+.box {
+  display: contents;
+}
+
+.active {
+  background: var(--white-color-ff);
+  color: var(--blue-color-07);
+}
+
+@media screen and (max-width: 962px) {
+  .block {
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+}

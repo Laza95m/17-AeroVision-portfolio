@@ -1,0 +1,45 @@
+.btn {
+  padding: 13px 31px;
+  border-radius: 50px;
+  background: var(--white-color-ff);
+  color: var(--blue-color-07);
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.5s;
+  border: 1px solid var(--blue-color-07);
+  display: flex;
+  gap: 15px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 40px 40px var(--white-color-ff) inset,
+    0 0 0 0 var(--white-color-ff);
+}
+
+.btn:hover {
+  background: var(--blue-color-07);
+  color: var(--white-color-ff);
+  box-shadow: 0 0 10px 0 var(--white-color-e9) inset,
+    0 0 10px 4px var(--white-color-e9);
+}
+
+.btn:hover img {
+  content: url(/downloadIconWhite.svg);
+}
+
+.btn:active img {
+  content: url(/downloadIconBlue.svg);
+}
+
+.btn:active {
+  background: var(--white-color-ff);
+  color: var(--blue-color-07);
+}
+
+.btn.active {
+  background: var(--blue-color-07);
+  color: var(--white-color-ff);
+  box-shadow: 0 0 10px 0 var(--white-color-e9) inset,
+    0 0 10px 4px var(--white-color-e9);
+}
